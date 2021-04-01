@@ -1,0 +1,222 @@
+/*************************************************
+                 The Header
+            **************************************************/
+body {
+  margin: 0;
+  padding: 0;
+}
+#main,
+#logo,
+#menybar,
+#section,
+#middle,
+#meny,
+#middle-four,
+#mid-content-four-bottom,
+#mid-content-four-top {
+  margin-left: auto;
+  margin-right: auto;
+}
+#header {
+  height: 220px;
+  border-bottom: 5px solid #0c6b71;
+  background: #1d1d1d url(/assets/pat14.png) repeat;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  display: block;
+}
+
+#logo {
+  width: 880px;
+  height: 129px;
+  position: relative;
+  padding: 7px;
+}
+#logobild {
+  margin-left: 200px;
+  position: absolute;
+}
+#menybar {
+  width: 895px;
+  height: 90px;
+}
+#meny {
+  width: 880px;
+}
+#meny ul {
+  list-style-type: none;
+  margin: 10px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+}
+#meny ul li {
+  display: inline-flex;
+  margin: 14px;
+  margin-top: 15px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid #017a8d;
+  margin-right: 25px;
+}
+#meny ul li a {
+  text-decoration: none;
+  font: 500 16px/40px 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #474e5d;
+}
+#meny li a:link {
+  color: #474e5d;
+}
+#meny li a:visited {
+  color: #474e5d;
+}
+#meny li a:hover {
+  color: #017a8d;
+}
+
+/*************************************************
+                         The Middle part
+                    **************************************************/
+#section {
+  background-image: url(/assets/pat16.png);
+  height: auto;
+}
+#middle-four {
+  width: 880px;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#mid-content-four {
+  border: 2px solid black;
+  background-color: #ffffff;
+  height: auto;
+  opacity: 0.7;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+#header-text {
+  font-family: Georgia, serif;
+  text-align: center;
+  color: black;
+  font-size: 220%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+#knappOne,
+#knappTwo,
+#knappTree {
+  width: 360px;
+  height: 170px;
+  display: inline-flex;
+}
+#knappOne h1,
+#knappTwo h1,
+#knappTree h1 {
+  font-family: Courier New;
+  height: 40px;
+  width: 200px;
+  font-weight: 500;
+  font-size: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+}
+#knappOne {
+  color: white;
+  background-color: #5d4c46;
+}
+#knappTwo {
+  background-color: #7b8d8e;
+  color: white;
+}
+#knappTree {
+  background-color: #e45641;
+  color: white;
+}
+#mid-content-four-top {
+  width: 732px;
+}
+#mid-content-four-bottom {
+  width: 364px;
+  margin-top: 4px;
+  margin-bottom: 5px;
+}
+#mid-content-four a {
+  text-decoration: none;
+  position: relative;
+  color: white;
+}
+#mid-content-four a:visited {
+  color: White;
+}
+#mid-content-four a:hover {
+  color: black;
+}
+#mid-content-four a:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+#mid-content-four a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+/*************************************************
+                         The footer
+                    **************************************************/
+#footer {
+  background: #212121;
+}
+#footer-content {
+  height: 100px;
+  width: 310px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.SocialMedia-pic {
+  display: inline;
+  padding: 12px;
+}
+.SocialMedia-pic img {
+  border-radius: 4px;
+  height: 50px;
+  width: 50px;
+  margin-top: 10px;
+}
+.SocialMedia-pic img:hover {
+  background-color: white;
+}
+#copyright {
+  font-size: 20px;
+  color: white;
+  margin-top: 2px;
+  text-align: center;
+}
+#footer p {
+  font-family: Coronetscript, cursive;
+  font-size: 15px;
+}
+#footer-shell {
+  width: 880px;
+  margin-right: auto;
+  margin-left: auto;
+}

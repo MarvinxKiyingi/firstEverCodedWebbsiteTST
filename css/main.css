@@ -1,0 +1,157 @@
+/*************************************************
+                 The Header
+            **************************************************/
+body {
+  margin: 0;
+  padding: 0;
+}
+#main,
+#logo,
+#menybar,
+#section,
+#middle,
+#meny {
+  margin-left: auto;
+  margin-right: auto;
+}
+#header {
+  height: 220px;
+  border-bottom: 5px solid #0c6b71;
+  background: #1d1d1d url(/assets/pat14.png) repeat;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  display: block;
+}
+
+#logo {
+  width: 880px;
+  height: 129px;
+  position: relative;
+  padding: 7px;
+}
+#logobild {
+  margin-left: 200px;
+  position: absolute;
+}
+#menybar {
+  width: 895px;
+  height: 90px;
+}
+#meny {
+  width: 880px;
+}
+#meny ul {
+  list-style-type: none;
+  margin: 10px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+}
+#meny ul li {
+  display: inline-flex;
+  margin: 14px;
+  margin-top: 15px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid #017a8d;
+  margin-right: 25px;
+}
+#meny ul li a {
+  text-decoration: none;
+  font: 500 16px/40px 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #474e5d;
+}
+#meny li a:link {
+  color: #474e5d;
+}
+#meny li a:visited {
+  color: #474e5d;
+}
+#meny li a:hover {
+  color: #017a8d;
+}
+
+/*************************************************
+                         The Middle part
+                    **************************************************/
+#section {
+  background-image: url(/assets/scheme_chips_black_computer_elements_29651_1920x1080.jpg);
+  height: auto;
+}
+#middle {
+  width: 880px;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#mid-content {
+  border: 1px solid black;
+  background: rgba(255, 255, 255, 0.9);
+  padding-top: 50px;
+  padding-bottom: 20px;
+  height: auto;
+  box-shadow: 0 0 90px #0d3557;
+}
+#mid-content h1 {
+  font-family: Georgia, serif;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #017a8d;
+  font-size: 220%;
+}
+#mid-content p {
+  font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  font-size: 170%;
+  text-align: center;
+  color: black;
+  padding: 26px;
+  font-weight: 300;
+  line-height: 170%;
+}
+/*************************************************
+                         The footer
+                    **************************************************/
+#footer {
+  background: #212121;
+}
+#footer-content {
+  height: 100px;
+  width: 310px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.SocialMedia-pic {
+  display: inline;
+  padding: 12px;
+}
+.SocialMedia-pic img {
+  border-radius: 4px;
+  height: 50px;
+  width: 50px;
+  margin-top: 10px;
+}
+.SocialMedia-pic img:hover {
+  background-color: white;
+}
+#copyright {
+  font-size: 20px;
+  color: white;
+  margin-top: 2px;
+  text-align: center;
+}
+#footer p {
+  font-family: Coronetscript, cursive;
+  font-size: 15px;
+}
+#footer-shell {
+  width: 880px;
+  margin-right: auto;
+  margin-left: auto;
+}

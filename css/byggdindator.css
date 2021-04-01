@@ -1,0 +1,204 @@
+/*************************************************
+                 The Header
+**************************************************/
+body {
+  margin: 0;
+  padding: 0;
+}
+#main,
+#logo,
+#menybar,
+#section,
+#middle,
+#meny,
+#middle-tree {
+  margin-left: auto;
+  margin-right: auto;
+}
+#header {
+  height: 220px;
+  border-bottom: 5px solid #0c6b71;
+  background: #1d1d1d url(/assets/pat14.png) repeat;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  display: block;
+}
+
+#logo {
+  width: 880px;
+  height: 129px;
+  position: relative;
+  padding: 7px;
+}
+#logobild {
+  margin-left: 200px;
+  position: absolute;
+}
+#menybar {
+  width: 895px;
+  height: 90px;
+}
+#meny {
+  width: 880px;
+}
+#meny ul {
+  list-style-type: none;
+  margin: 10px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+}
+#meny ul li {
+  display: inline-flex;
+  margin: 14px;
+  margin-top: 15px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid #017a8d;
+  margin-right: 25px;
+}
+#meny ul li a {
+  text-decoration: none;
+  font: 500 16px/40px 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #474e5d;
+}
+#meny li a:link {
+  color: #474e5d;
+}
+#meny li a:visited {
+  color: #474e5d;
+}
+#meny li a:hover {
+  color: #017a8d;
+}
+
+/*************************************************
+                         The Middle part
+**************************************************/
+#section {
+  background-image: url(/assets/pat16.png);
+  height: auto;
+}
+#middle-tree {
+  width: 880px;
+  height: auto;
+  box-shadow: 0 0 30px #0d3557;
+}
+#middle-tree h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  letter-spacing: 2px;
+  color: #515151;
+}
+#mid-content-tree {
+  border: 6px outset #017a8d;
+  margin-bottom: 20px;
+}
+
+#mid-content-tree h3 {
+  font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+  letter-spacing: 2px;
+  margin-bottom: -25px;
+  font-size: 27px;
+  padding: 15px;
+}
+#mid-content-tree p {
+  font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  font-size: 20px;
+  padding: 15px;
+  line-height: 145%;
+}
+.imgplace-one img {
+  width: 868px;
+  height: 290px;
+}
+.imgplace-two img {
+  width: 868px;
+  height: 580px;
+}
+.textplace {
+  border: 1px solid black;
+  background: white;
+  width: 770px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 15px;
+}
+.textplace ul {
+  padding-left: 40px;
+  padding: 50px;
+  margin-top: -50px;
+  margin-bottom: -50px;
+}
+.textplace ul li {
+  padding-left: 10px;
+  font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  font-size: 20px;
+  line-height: 140%;
+  margin-bottom: 15px;
+}
+#knapp {
+  padding-bottom: 22px;
+}
+#button-click {
+  width: 880px;
+  height: 50px;
+  border: 6px outset #017a8d;
+  background-color: #0c6b71;
+  color: white;
+  font-size: 20px;
+}
+#button-click:hover {
+  background-color: #515151;
+  cursor: pointer;
+}
+/*************************************************
+                         The footer
+**************************************************/
+#footer {
+  background: #212121;
+  margin-top: -20px;
+}
+#footer-content {
+  height: 100px;
+  width: 310px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.SocialMedia-pic {
+  display: inline;
+  padding: 12px;
+}
+.SocialMedia-pic img {
+  border-radius: 4px;
+  height: 50px;
+  width: 50px;
+  margin-top: 10px;
+}
+.SocialMedia-pic img:hover {
+  background-color: white;
+}
+#copyright {
+  font-size: 20px;
+  color: white;
+  margin-top: 2px;
+  text-align: center;
+}
+#footer p {
+  font-family: Coronetscript, cursive;
+  font-size: 15px;
+}
+#footer-shell {
+  width: 880px;
+  margin-right: auto;
+  margin-left: auto;
+}
