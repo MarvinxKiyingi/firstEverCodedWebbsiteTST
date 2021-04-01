@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title> BuildMyPc </title>
+        <meta charset="utf-8">
+        <style>
+            /*************************************************
+                 The Header
+            **************************************************/
+            body{
+                margin: 0;
+                padding: 0;
+            }
+            #main,#logo,#menybar,#section,#middle,#meny,#middle-tree {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            #header{
+                height: 220px;
+                border-bottom: 5px solid #0C6B71;
+                background: #1d1d1d url(pat14.png) repeat;
+            }
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            
+            div{
+                display: block;
+            }
+            
+            #logo{
+                width: 880px;
+                height: 129px;
+                position: relative;
+                padding: 7px;
+            }
+            #logobild{
+                margin-left: 200px;
+                position: absolute;
+            }
+            #logobild,img{
+            
+            }
+            #menybar{
+                width: 895px;
+                height: 90px;
+            }
+            #meny{
+                width: 880px;
+            }
+            #meny ul{
+                list-style-type: none;
+                margin: 10px;
+                width: 600px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 0px; 
+            }
+            #meny ul li{
+                display: inline-flex;
+                margin: 14px;
+                margin-top: 15px;
+                margin-bottom: 4px;
+                border-bottom: 1px solid #017A8D;
+                margin-right: 25px;
+            }
+            #meny ul li a{
+                text-decoration: none;
+                font: 500 16px/40px "Poppins", sans-serif;
+                font-weight: 600;
+                color: #474e5d;
+            }
+            #meny li a:link{
+                color: #474e5d;
+            }
+            #meny li a:visited{
+                color: #474e5d;
+            }
+            #meny li a:hover{
+                color: #017A8D;
+            }
+            
+            /*************************************************
+                 The Middle part
+            **************************************************/
+            #section{
+                background-image: url(pat16.png);
+                height: auto;
+            }
+            #middle-tree{
+                width: 880px;
+                height: auto;
+                box-shadow: 0 0 30px #0d3557;
+            }
+            #middle-tree h1{
+                text-align: center;
+                margin-bottom: 10px;
+                padding-top: 10px;
+                letter-spacing: 2px;
+                color: #515151;
+            }
+            #mid-content-tree{
+                border: 6px outset #017A8D;
+                margin-bottom: 20px;
+                
+                
+            }
+            #mid-content-tree:hover{
+                
+            }
+            
+            #mid-content-tree h3{
+                font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+                letter-spacing: 2px;
+                margin-bottom: -25px;
+                font-size: 27px;
+                padding: 15px;
+                
+            }
+            #mid-content-tree p{
+                font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+                font-size: 20px;
+                padding: 15px;
+                line-height: 145%;
+                
+            }
+            .imgplace-one img{
+                width: 868px;
+                height: 290px;  
+            }
+            .imgplace-two img{
+                width: 868px;
+                height: 580px;  
+            }
+            .textplace{
+                border: 1px solid black;
+                background: white;
+                width: 770px;
+                margin-right: auto;
+                margin-left: auto;
+                margin-bottom: 10px;
+                margin-top: 10px;
+                border-radius: 15px;
+                
+            }
+            .textplace ul{
+                padding-left: 40px;
+                padding: 50px;
+                margin-top: -50px;
+                margin-bottom: -50px;
+                
+            }
+            .textplace ul li{
+                padding-left: 10px;
+                font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+                font-size: 20px;
+                line-height: 140%;
+                margin-bottom: 15px;
+                
+            }
+            #knapp{
+                padding-bottom:22px;
+            }
+            #button{
+                
+            }
+            #button-click{
+                width: 880px;
+                height: 50px;
+                border: 6px outset #017A8D;
+                background-color: #0C6B71;
+                color: white;
+                font-size: 20px;
+            }
+            #button-click:hover{
+                background-color: #515151;
+                cursor: pointer;
+            }
+            /*************************************************
+                 The footer
+            **************************************************/
+            #footer{
+                background: #212121;
+                margin-top: -20px;
+            }
+            #footer-content{
+                height: 100px;
+                width: 310px;
+                margin-right: auto;
+                margin-left: auto;
+            }
+            .SocialMedia-pic{
+                display: inline;
+                padding: 12px;
+            }
+            .SocialMedia-pic img{
+                border-radius: 4px;
+                height: 50px;
+                width: 50px;
+                margin-top: 10px;
+            }
+            .SocialMedia-pic img:hover{
+                background-color: white;
+            }
+            #copyright {
+                font-size: 20px;
+                color: white;
+                margin-top: 2px;
+                text-align: center;
+            }
+            #footer p{
+                font-family: Coronetscript, cursive;
+                font-size: 15px;
+            }
+            #footer-shell{
+                width: 880px;
+                margin-right: auto;
+                margin-left: auto;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div #id="main">
+            
+            <div id="header">
+
+                <div id="logo">
+                    
+                    <div id="logobild">
+                    
+                        <a href="Startsidan.html"><img src="Logo.png" alt="www.logomaker.com"></a>
+                        
+                    </div>
+
+                </div>
+                
+                <div id="menybar">
+                
+                    <div id="meny">
+
+                    <ul>
+
+                        <li > <a href="Startsidan.html"> Startsidan </a></li>
+                        
+                        <li> <a href="Checklista.html"> Checklista </a></li>
+                        
+                        <li> <a href="lankar.html"> Länkar </a></li>
+                        
+                        <li> <a href="Byggdindator.html"> Bygg din dator </a></li>
+                        
+                        <li> <a href="Kontakt.html"> Kontakt </a></li>
+
+                    </ul>
+
+                    </div>
+                
+                </div>
+            </div>
+
+            <div id="section">
+                
+                <div id="middle-tree">
+                    <h1> Nu är det dags att sätta ihoppa allt </h1>
+                    
+                    <div id="mid-content-tree">
+                        
+                        <div class="imgplace-one"> <img src="antistot.jpg" alt="anti"> </div>
+                        
+                        <div class="textplace">
+                        
+                            <h3> Steg 1 </h3>
+                            <p> Jorda dig själv inna du rör datorkomponenterna ( rekommenderar att sätta på en antistatiskt armband ), Om detta steg glöms kommer det att resultera skador på komponenter. </p>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    <div id="mid-content-tree">
+                        
+                        <div class="imgplace-one"> <img src="CPUokyl.jpg" alt="CPU"> </div>
+                        
+                        <div class="textplace">
+                        
+                            <h3> Steg 2 </h3>
+                            <p> Moderkortet har en sockel ( som den heter ) där processorn monteras, som du öppnar genom att ta loss på spaken och vrid den uppåt sedan ta loss metal bygeln som håller processorn på plats. Processorn kan endast sättas in på rätt år ett håll, därför är det viktigt att du har köpt rätt processor till ditt moderkor. vid installation ska den sättas in väldigt försiktig, då du kanske satt in den åt fel håll och trycker för hårt som leder till att processorn går sönder. Kolla moderkorts manualen för att se hur den sätts in korrekt.<br><br>
+
+                            När processorn är på plats och fastspänd, är det dags att montera processor kylaren som i dagsläget kommer med kylpasta redan applicerat. det du behöver göra är att sätta den så att alla skruvar är på plats ( runt om processor hållaren ) och sedan skruva in de, men inte allt för hårt.</p>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    <div id="mid-content-tree">
+                        
+                        <div class="imgplace-one"> <img src="ramslot.jpg" alt="ram"> </div>
+                        
+                        <div class="textplace">
+                        
+                            <h3> Steg 3 </h3>
+                            <p> Nu ska dina RAM-minnen in i dess respektive plats, som du genom att öppnar “ låsen” där ramen ska sitta. Efter som att ram kortet sätts in åt ett håll ska det inte vara svårt att hitta det rätt. Det finns ett hack som inte riktigt är placerat på mitten, utan ena sidan är störren än den andra. Så då matchar du så det blir rätt och sedan trycker ner ram mitten tills du har “Click “ så låsen är nu låsta och håller den på plats.</p>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    <div id="mid-content-tree">
+                        
+                        <div class="imgplace-two"> <img src="intalAvmoder.jpg" alt="Moderboard"> </div>
+                        
+                        <div class="textplace">
+                        
+                            <h3> Steg 4 </h3>
+                            <p> Nu ska moderkortet monteras i Chassiten. Börja förstås med att öppna Chassiten med dess skruvar på sidan och ställa den på samma sätt som du er på bilden. Sedan är det bara att skruva till distanser ( som separerar moderkortet från chassiten en bit ) dom ska medföljas i Chassiten.<br><br>
+
+                            För att ta red på hur distanserna ska monteras kan man sätta in moderkortet i kassen och matcha hållen från moderkortet. Efter det ska du trycka ditt ramen för moderkortet in till chassiten. Nu ska du försiktigt ställa ditt moderkort på plats så det matchar med distanserna du just har installerat. Och sedan skriver du in moderkortet med dess skruvar in till distanserna.<br><br>
+
+                            Nu när allt är på plats ska du koppla in chassit kontakterna till moderkortet ( det är de färgglada färgerna du ser med en svart kabel på bilden). Med dessa kablar ansluter du alla kontakterna så som USB, ljud  och annat som är på utsidan av chassiten. I manualen för ditt moderkort står det vart alla de kontakterna ska kopplas in.</p>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    <div id="mid-content-tree">
+                        
+                        <div class="imgplace-one"> <img src="optiska.jpg" alt="CPU"> </div>
+                        
+                        <div class="textplace">
+                        
+                            <h3> Steg 5 </h3>
+                            <p> Den optiska läsaren förs in i respektive hål och hålls fast med skruvar på insidan av Chassiten. Hårddisken installeras på oftast på ett liknande sätt, men alla chassit är inte likadana och därmed borde du läsa manualen för just ditt chassit för att ta reda på hur du ska installer din hårddisk. Det ska sedan anslutas en sata kabel från moderkortet till hårddisken och optiska läsaren så de kan kommunicera med moderkortet. <br><br>
+
+                            Om du inte har / vill installera en optiska läsare, då jag nämnde innan att den inte används så värst mycket är det bara att skippa detta steg.</p>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    <div id="mid-content-tree">
+                        
+                        <div class="imgplace-one"> <img src="GrafikkortetIn.jpg" alt="CPU"> </div>
+                        
+                        <div class="textplace">
+                        
+                            <h3> Steg 6 </h3>
+                            <p> Om du har ett moderkort med integrerat grafikkort och inte vill installera separat grafikkort kan du skippa detta steg. <br><br>
+
+                            Grafikkortet anluts till en av OCI-express portarna, den som är för moderkortet brukar oftast vara närmast processorn. Kolla din manual för moderkortet för mer information för vart du ska montera ditt grafikkort. I mitt fall var det den första närmast processorn. Installationen av grafikkortet är ungefär likadan som att montera ram minne. Det som behövs göras är att öppna “ låset “ på höger kant av PCI-express porten och sedan trycka in den tills du hör ett “klick“. Sedan till skillnad från ram minnet ska grafikkortet skruvas in på kanten av Chassits baksida ( så som på bilden ovan ).</p>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    <div id="mid-content-tree">
+                        
+                        <div class="imgplace-one"> <img src="Natinstall.jpg" alt="CPU"> </div>
+                        
+                        <div class="textplace">
+                        
+                            <h3> Steg 7 </h3>
+                            <p> Då var det dags att montera nätaggregatet. I det flesta fall finns det bara ett ställe att sätta nätagget på, så hitta var den ska vara på ditt chassit och fäst fast den med fyra skruvmejslar. Det är bäst att neka fläkten ner mot moderkortet, då den tar in luft från chassiten ut så det inte blir för varmt i lådan med alla de inlåsta och varma komponenterna.</p>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    <div id="mid-content-tree">
+                        
+                        <div class="imgplace-two"> <img src="CableManegment%20.jpg" alt="CPU"> </div>
+                        
+                        <div class="textplace">
+                        
+                            <h3> Steg 8 </h3>
+                            <p> Efter att man har installerat nätagget, har man en hel del kablar att hanterat och koppla in. Få ingen panik för att alla ska kanske inte ens användas. På vissa kablar står det vart de ska kopplas in, och kontakten brukar oftast vara rätt så nära komponenten den ska anslutas till på moderkortet. Den största kontakten är för moderkortet.
+                            <br>Här är en liten lista på vad som kan kontakteras</p>
+                            
+                            <ul>
+                                <li>Det flesta komponenterna idag använder dig av PH2 Stjärnskruvmejsel. det är bäst att köpa en med extra lång klinga samt med magnet på toppen som är hjälpsam när man sätter dit en skruv.</li>
+                                
+                                <li>Buntban som inte är ett måste, men bra att användas när man vill organisera alla kablar i chassiten efter installation av alla komponenter.</li>
+                                
+                                <li>En sidavbitare för att klippa av resterna av buntbanden. Men om man inte har råd för en sån så ska en sax nog funka.</li>
+                                
+                                <li>Sisst men inte minst ett antistatiskt armband ( för att skydda dina komponenter mot statiska urladdningar ) som ska vara kopplat till något jordad så som ett elutag jorden pinnar på kanten. Om man inte har bandet går det också att hitta andra saker hemma som är jordad, så som den metalliska diskbänken.</li>
+                            </ul>
+                            
+                        </div>
+                        
+                        
+                    </div>
+                    
+                    <div id="knapp">
+                        
+                        <a id="button" href="https://www.youtube.com/watch?v=6uRT-bWE2EQ" target="_blank"> <button id="button-click"> Sista steget är att installera windows med hjälp av denna guide, klicka på mig! </button>  </a>
+                    
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="footer">
+                
+                <div id="footer-shell">
+                    
+                    <div id="footer-content">
+                
+                        <div Id="SocialMedia">
+                        <div class="SocialMedia-pic">
+                            <a href="https://www.facebook.com/Buildmypc-1172469942872092/" target="_blank"><img src="Facebook.png" alt="http://www.flaticon.com/"></a>
+                        </div>
+
+                        <div class="SocialMedia-pic">
+                            <a href="https://twitter.com/buildmypcmk" target="_blank"><img src="Twitter.png" alt="http://www.flaticon.com/"></a>
+                        </div>
+
+                        <div class="SocialMedia-pic">
+                            <a href="https://www.instagram.com/buildmypcmk/" target="_blank"><img src="Instagram.png" alt="http://www.flaticon.com/"></a>
+                        </div>
+
+                        <div class="SocialMedia-pic">
+                            <a href="https://www.youtube.com/channel/UCFpTjYzUAnGIjwDZ6nNdIfw" target="_blank"><img src="youtube.png" alt="http://www.flaticon.com/"></a>
+                        </div>
+
+                        </div>
+                        <p id="copyright"> &copy; Made by Marvin Kiyingi </p>
+                
+                    </div>
+                
+                </div>
+        
+            </div>
+        </div>
+    </body>
+    
+</html>

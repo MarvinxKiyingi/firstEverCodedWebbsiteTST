@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title> BuildMyPc </title>
+        <meta charset="utf-8">
+        <style>
+            /*************************************************
+                 The Header
+            **************************************************/
+            body{
+                margin: 0;
+                padding: 0;
+            }
+            #main,#logo,#menybar,#section,#middle,#meny,#middle-two,#mid-content-two-bottom {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            #header{
+                height: 220px;
+                border-bottom: 5px solid #0C6B71;
+                background: #1d1d1d url(pat14.png) repeat;
+            }
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            
+            div{
+                display: block;
+            }
+            
+            #logo{
+                width: 880px;
+                height: 129px;
+                position: relative;
+                padding: 7px;
+            }
+            #logobild{
+                margin-left: 200px;
+                position: absolute;
+            }
+            #logobild,img{
+            
+            }
+            #menybar{
+                width: 895px;
+                height: 90px;
+            }
+            #meny{
+                width: 880px;
+            }
+            #meny ul{
+                list-style-type: none;
+                margin: 10px;
+                width: 600px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 0px; 
+            }
+            #meny ul li{
+                display: inline-flex;
+                margin: 14px;
+                margin-top: 15px;
+                margin-bottom: 4px;
+                border-bottom: 1px solid #017A8D;
+                margin-right: 25px;
+            }
+            #meny ul li a{
+                text-decoration: none;
+                font: 500 16px/40px "Poppins", sans-serif;
+                font-weight: 600;
+                color: #474e5d;
+            }
+            #meny li a:link{
+                color: #474e5d;
+            }
+            #meny li a:visited{
+                color: #474e5d;
+            }
+            #meny li a:hover{
+                color: #017A8D;
+            }
+            
+            /*************************************************
+                 The Middle part
+            **************************************************/
+            #section{
+                background-image: url(pat16.png);
+                height: auto;
+            }
+            #middle-two{
+                width: 880px;
+                height: auto;
+            }
+            #mid-content-two{
+                border: 2px solid white;
+                background-color: #ffffff;
+                height: auto;
+                opacity: 0.7;
+            }
+            #Message{
+                margin-bottom: 15px;
+                border-radius: 10px;
+            }
+            #Message{
+                background-color: white;
+                width: 865px;
+                height: 550px;
+                box-shadow: 0 0 30px #0d3557;
+                margin-top: 5px;
+                margin-left: 5px;
+            }
+            #Message h1,h2{
+                color: #0d3557;
+                text-align: center;
+                margin: 0;
+                padding: 5px;
+            }
+            #Message h1{
+                font-size: 38px;
+                margin-bottom: 20px
+            }
+            #Message h2{
+                font-family: "Courier New", Courier, monospace;
+                font-size: 28px;
+                margin-bottom: 30px;
+            }
+            #Message p{
+                color: #0d3557;
+                font-size: 30px;
+                font-family: "Courier New", Courier, monospace;
+                margin-bottom: 15px;
+            }
+            #form{
+                margin-left: 80px;
+            }
+            #form input{
+                width: 500px;
+                height: 25px;
+                font-size: 17px;
+                background-color: white;;
+                border: #386a93;
+                color: #0d3557;
+                box-shadow: 0 0 30px #0d3557;
+                font-family: "Courier New", Courier, monospace;
+                float: right;
+                margin-right: 100px;
+            }
+            #textarea-wrapper p{
+                margin: 0;
+            }
+            textarea{
+                width: 690px;
+                height: 120px;
+                background-color: white;
+                font-size: 17px;
+                color: #0d3557;
+                border: #386a93;
+                box-shadow: 0 0 30px #0d3557;
+                font-family: "Courier New", Courier, monospace;
+            }
+            #Message button{
+                color: #0d3557;
+                font-size: 20px;
+                width: 80px;
+                background-color: white;
+                border: 3px solid #0d3557;
+                border-radius: 10px;
+                float: right;
+                margin-right: 95px;
+            }
+            /*************************************************
+                 The footer
+            **************************************************/
+            #footer{
+                background: #212121;
+            }
+            #footer-content{
+                height: 100px;
+                width: 310px;
+                margin-right: auto;
+                margin-left: auto;
+            }
+            .SocialMedia-pic{
+                display: inline;
+                padding: 12px;
+            }
+            .SocialMedia-pic img{
+                border-radius: 4px;
+                height: 50px;
+                width: 50px;
+                margin-top: 10px;
+            }
+            .SocialMedia-pic img:hover{
+                background-color: white;
+            }
+            #copyright {
+                font-size: 20px;
+                color: white;
+                margin-top: 2px;
+                text-align: center;
+            }
+            #footer p{
+                font-family: Coronetscript, cursive;
+                font-size: 15px;
+            }
+            #footer-shell{
+                width: 880px;
+                margin-right: auto;
+                margin-left: auto;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div #id="main">
+            
+            <div id="header">
+
+                <div id="logo">
+                    
+                    <div id="logobild">
+                    
+                        <a href="Startsidan.html"><img src="Logo.png" alt="www.logomaker.com"></a>
+                        
+                    </div>
+
+                </div>
+                
+                <div id="menybar">
+                
+                    <div id="meny">
+
+                    <ul>
+
+                        <li > <a href="Startsidan.html"> Startsidan </a></li>
+                        
+                        <li> <a href="Checklista.html"> Checklista </a></li>
+                        
+                        <li> <a href="lankar.html"> Länkar </a></li>
+                        
+                        <li> <a href="Byggdindator.html"> Bygg din dator </a></li>
+                        
+                        <li> <a href="Kontakt.html"> Kontakt </a></li>
+
+                    </ul>
+
+                    </div>
+                
+                </div>
+            </div>
+
+            <div id="section">
+                
+                <div id="middle-two">
+                    
+                    <div id="mid-content-two">
+                
+                        <div id="Message">
+                    
+                            <h1>Har du frågor ?</h1>
+                            <h2> Det är bara att skriva ett meddelande nedan <br> så återkommer vi så sabbt vi bara kan </h2>
+                    
+                            <div id="form">
+                                <p>Namn: <input type="text" name="state" class="textbox"></p>
+                    
+                                <p>Telefon: <input type="text" name="state" class="textbox"></p>
+                    
+                                <p>E-mail: <input type="text" name="state" class="textbox"></p>
+                        
+                                <div id="textarea-wrapper">
+                            
+                                    <p> Ditt meddelande: </p>
+                                    <textarea rows="7" cols="50"></textarea>
+                            
+                                </div>
+                        
+                                <button type="button" onclick="alert('Your message have been sent ;)')"> Book </button>
+                        
+                            </div>
+                    
+                        </div>
+                        
+                    </div>
+                
+                </div>
+
+            </div>
+
+            <div id="footer">
+                
+                <div id="footer-shell">
+                    
+                    <div id="footer-content">
+                
+                        <div Id="SocialMedia">
+                        <div class="SocialMedia-pic">
+                            <a href="https://www.facebook.com/Buildmypc-1172469942872092/" target="_blank"><img src="Facebook.png" alt="http://www.flaticon.com/"></a>
+                        </div>
+
+                        <div class="SocialMedia-pic">
+                            <a href="https://twitter.com/buildmypcmk" target="_blank"><img src="Twitter.png" alt="http://www.flaticon.com/"></a>
+                        </div>
+
+                        <div class="SocialMedia-pic">
+                            <a href="https://www.instagram.com/buildmypcmk/" target="_blank"><img src="Instagram.png" alt="http://www.flaticon.com/"></a>
+                        </div>
+
+                        <div class="SocialMedia-pic">
+                            <a href="https://www.youtube.com/channel/UCFpTjYzUAnGIjwDZ6nNdIfw" target="_blank"><img src="youtube.png" alt="http://www.flaticon.com/"></a>
+                        </div>
+
+                        </div>
+                        <p id="copyright"> &copy; Made by Marvin Kiyingi </p>
+                
+                    </div>
+                
+                </div>
+        
+            </div>
+        </div>
+    </body>
+    
+</html>
