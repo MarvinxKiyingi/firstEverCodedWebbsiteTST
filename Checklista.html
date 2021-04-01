@@ -1,265 +1,39 @@
 <!DOCTYPE html>
 <html>
-    
     <head>
         <title> BuildMyPc </title>
         <meta charset="utf-8">
-        <style>
-            /*************************************************
-                 The Header
-            **************************************************/
-            body{
-                margin: 0;
-                padding: 0;
-            }
-            #main,#logo,#menybar,#section,#middle,#meny,#middle-two,.mid-content-inner,.imgpos {
-                margin-left: auto;
-                margin-right: auto;
-            }
-            #header{
-                height: 220px;
-                border-bottom: 5px solid #0C6B71;
-                background: #1d1d1d url(pat14.png) repeat;
-            }
-            *{
-                margin: 0;
-                padding: 0;
-            }
-            
-            div{
-                display: block;
-            }
-            
-            #logo{
-                width: 880px;
-                height: 129px;
-                position: relative;
-                padding: 7px;
-            }
-            #logobild{
-                margin-left: 200px;
-                position: absolute;
-            }
-            #logobild,img{
-            
-            }
-            #menybar{
-                width: 895px;
-                height: 90px;
-            }
-            #meny{
-                width: 880px;
-            }
-            #meny ul{
-                list-style-type: none;
-                margin: 10px;
-                width: 600px;
-                margin-left: auto;
-                margin-right: auto;
-                margin-top: 0px; 
-            }
-            #meny ul li{
-                display: inline-flex;
-                margin: 14px;
-                margin-top: 15px;
-                margin-bottom: 4px;
-                border-bottom: 1px solid #017A8D;
-                margin-right: 25px;
-            }
-            #meny ul li a{
-                text-decoration: none;
-                font: 500 16px/40px "Poppins", sans-serif;
-                font-weight: 600;
-                color: #474e5d;
-            }
-            #meny li a:link{
-                color: #474e5d;
-            }
-            #meny li a:visited{
-                color: #474e5d;
-            }
-            #meny li a:hover{
-                color: #017A8D;
-            }
-            
-            /*************************************************
-                 The Middle part
-            **************************************************/
-            #section{
-                background-image: url(pat16.png);
-                height: auto;
-            }
-            #middle-two{
-                width: 880px;
-                height: auto;
-                
-            }
-            #mid-content-two{
-                box-shadow: 0 0 30px #0d3557;
-                background-color: #ffffff;
-                height: auto;
-                background-image: url(pat16.png);
-                margin-top: -10px;
-                margin-bottom: -9px;
-                padding-bottom: 10px;
-            }
-            #mid-content-two h1{
-                text-align: center;
-                margin-top: 10px;
-                margin-bottom: 10px;
-                padding-top: 10px;
-                color: #515151;
-                letter-spacing: 3px;
-            }
-            .mid-content-inner{
-                border: 6px outset #017A8D;
-                width: 800px;
-                height: auto;
-                margin-bottom: 10px;
-                background: rgba(255, 255, 255, 0.5);
-                opacity: 0.4;
-                
-            }
-            .mid-content-inner:hover{
-                opacity: 1;
-            }
-            .imgpos{
-                width: 300px;
-            }
-            .mid-content-inner{
-                padding: 15px;
-            }
-            .mid-content-inner ol{
-                padding-left: 20px;
-            }
-            .mid-content-inner ol li{
-                padding-left: 10px;
-                margin-bottom: 15px;
-                font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-                font-size: 20px;
-                line-height: 140%;
-            }
-            .mid-content-inner img{
-                width: 300px;
-            }
-            .mid-content-inner h3{
-                margin-bottom: 5px;
-                letter-spacing: 2px;
-                font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
-                font-size: 25px;
-            }
-            .mid-content-inner p{
-                margin-bottom: 10px;
-                font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-                font-size: 20px;
-                line-height: 160%;
-                font-weight: 500;
-                
-            }
-            #power-link{
-                text-decoration: none;
-                color: #017A8D;
-            }
-            #power-link:visited{
-                color: #017A8D;
-            }
-            #power-link:hover{
-                text-decoration: underline;
-                color: #E78F82;
-            }
-            
-            /*************************************************
-                 The footer
-            **************************************************/
-            #footer{
-                background: #212121;
-            }
-            #footer-content{
-                height: 100px;
-                width: 310px;
-                margin-right: auto;
-                margin-left: auto;
-            }
-            .SocialMedia-pic{
-                display: inline;
-                padding: 12px;
-            }
-            .SocialMedia-pic img{
-                border-radius: 4px;
-                height: 50px;
-                width: 50px;
-                margin-top: 10px;
-            }
-            .SocialMedia-pic img:hover{
-                background-color: white;
-            }
-            #copyright {
-                font-size: 20px;
-                color: white;
-                margin-top: 2px;
-                text-align: center;
-            }
-            #footer p{
-                font-family: Coronetscript, cursive;
-                font-size: 15px;
-            }
-            #footer-shell{
-                width: 880px;
-                margin-right: auto;
-                margin-left: auto;
-            }
-        </style>
+        <link rel="stylesheet" href="/css/checklista.css">
     </head>
-    
     <body>
         <div #id="main">
-            
             <div id="header">
-
-                <div id="logo">
-                    
-                    <div id="logobild">
-                    
-                        <a href="Startsidan.html"><img src="Logo.png" alt="www.logomaker.com"></a>
-                        
-                    </div>
-
+              <div id="logo">
+                <div id="logobild">
+                  <a href="index.html"><img src="assets/Logo.png" alt="www.logomaker.com" /></a>
                 </div>
-                
-                <div id="menybar">
-                
-                    <div id="meny">
-
+              </div>
+      
+              <div id="menybar">
+                <div id="meny">
                     <ul>
-
-                        <li > <a href="Startsidan.html"> Startsidan </a></li>
-                        
-                        <li> <a href="Checklista.html"> Checklista </a></li>
-                        
-                        <li> <a href="lankar.html"> Länkar </a></li>
-                        
-                        <li> <a href="Byggdindator.html"> Bygg din dator </a></li>
-                        
-                        <li> <a href="Kontakt.html"> Kontakt </a></li>
-
+                        <li><a href="index.html"> Startsidan </a></li>
+                        <li><a href="checklista.html"> Checklista </a></li>
+                        <li><a href="lankar.html"> Länkar </a></li>
+                        <li><a href="byggdindator.html"> Bygg din dator </a></li>
+                        <li><a href="kontakt.html"> Kontakt </a></li>
                     </ul>
-
-                    </div>
-                
                 </div>
+              </div>
             </div>
 
             <div id="section">
-                
                 <div id="middle-two">
-                    
                     <div id="mid-content-two">
-                        
                         <h1 id="display"> Här nedan är allt du behöver veta !</h1>
-                        
                         <div class="mid-content-inner">
                             
-                            <div class="imgpos"> <img src="Chassi.png" alt="Chassi"> </div>
+                            <div class="imgpos"> <img src="/assets/Chassi.png" alt="Chassi"> </div>
                             
                             <h3> Chassit </h3>
                             <p> Chassit är själva “ skalet “ på datorn, det är den som håller allt på plats med skruvar förstås. Och de kan man hitta i alla olika storlekar och former, att hitta den rätta för en själv kan vara svårt. Kan vara så att man hittar en man gillar men får inte in alla komponenterna som behövs för att få datorn att fungera. Så det man behöver tänka på när man väljer en är att hitta en som är tillräckligt stor för alla komponenterna och förstås en som passar dina personlighet och smak.<br><br>
@@ -269,8 +43,7 @@
                         </div>
                         
                         <div class="mid-content-inner" class"fade">
-                            
-                            <div class="imgpos"> <img src="fans.png" alt="fans"> </div>
+                            <div class="imgpos"> <img src="/assets/fans.png" alt="fans"> </div>
                             
                             <h3> Fläktar </h3>
                             <p> Fläktar är en annan viktig komponen om din dator ska funka correct, deras jobb är att stabilisera din dator så den inte blir för varm. Som kan led till att dator går väldigt segt eller att den helt och håller stänger av sig själv, på grund av värmen. <br><br>
@@ -278,12 +51,10 @@
                             Normalt så ingår det en fläkt på framsidan av datorn som för ut luften i schassiten från alla komponenter. Men för säkerhetens skull så rekommenderas åtminstone två fläkta, en som för in luft på framsidan och en som för ut luften på baksidan. Och om man har extremt mycket komponenter i sin dator kanske man borde installera en eller fler till så att datorn inte blir överhettad. <br><br>
 
                             En anna sak som man bör tänka på när det kommer till fläktar är att de finns i flera olika storlekar. Så man måste ha det i baktanken när man köper sin chassit att det ska finnas plats för åtminstone två fläktar. Sen så ska man förstås hitta rätt fläktar som passar till ens chassit, som man kan göra genom att mäta på själva chassiten där fläktarna ska skruvas fast och jämföra det med de fläktstorlekar som redan finns. </p>
-                            
                         </div>
                         
                         <div class="mid-content-inner">
-                            
-                            <div class="imgpos"> <img src="CPU.png" alt="CPU"> </div>
+                            <div class="imgpos"> <img src="/assets/CPU.png" alt="CPU"> </div>
                             
                             <h3> CPU ( Central processing unit ) </h3>
                             <p> CPU är nästan som hjärnan för din dator, och därmed kommer vara en av de dyraste komponenterna du kommer köpa till din dator. Det finns två företag som leder med att producera CPU’n och det är AMD och Intel, med intel som leder. AMD’s chips är billigare men intel’s chip har en aning bättre prestanda jämfört med AMD.<br><br>
@@ -291,12 +62,10 @@
                             Hur du väljer vilken av de du ska gå med beror på vilken sorts användare du är och hur mycket du vill spendera. Rekommenderar att köpa så nysläppt processor som möjligt helt med L3 cache, vilket innebär att du kommer få allt från 6MB till 15MB ju högre desto bättre om du nu är en spelare. Annars funkar vanliga lite billigare 4MB CPU’n. vare sig det är AMD eller intel. <br><br>
                             
                             Sen ska det finnas en Cpu-kylare för att den inte ska bli överhettad och gå sönder och med det resten av datorn. De brukar medfölja processorn samt kylpasta redan applicerat på kylaren, annars får man köpa kylpasta och applicera den själv.</p>
-                            
                         </div>
                         
                         <div class="mid-content-inner">
-                            
-                            <div class="imgpos"> <img src="motherboard.png" alt="motherboard"> </div>
+                            <div class="imgpos"> <img src="/assets/motherboard.png" alt="motherboard"> </div>
                             
                             <h3> Moderkortet </h3>
                             <p> Moderkortet är då hjärtat av en dator, då den möjliggör kommunikation till RAM, CPN och alla andra datorkomponenterna.<br><br> 
@@ -304,12 +73,10 @@
                             När det är dags att välja moderkort så ska man först och främst tänka på om den CPU’n man har köpt är kompatibel med moderkortet och märket ( AMD eller Intel ). Samt att den är kompatibel med just den modellen av CPU som du har. Sen ska ju förstås den passa till ditt Chassit.<br><br>
                             
                             Dessa märken är rekommenderad att titta på när du ska köpa ditt moderkort, Asus, MSI, Gigabtye, AsRock och EVGA.</p>
-                            
                         </div>
                         
                         <div class="mid-content-inner">
-                            
-                            <div class="imgpos"> <img src="RAM.png" alt="ram"> </div>
+                            <div class="imgpos"> <img src="/assets/RAM.png" alt="ram"> </div>
                             
                             <h3> Ram ( Random access memory ) </h3>
                             <p> Ram minne har i uppgift att hjälpa processorn att lagra tillfällig information snabbt. Om det inte finns något ram minne kommer datorn vägra starta, då hårddisken som är också en form av minne är allt för sakta för att jobba med CPU ( processorn ) som är mycket snabb på att behandla information. Därmed behöver den ett lika effektivt minne att jobba med för att allt ska funka klockrent, utan att datorn saktar ner. En av anledningarna till att datorn saktar ner är på grund av att man har för lite minne som inte hinner tänka lika snabbt som processorn.<br><br>
@@ -317,129 +84,90 @@
                             Såhär går det till när en ny application installeras, det sparas på hårddisken och sedan för över information till ram minnet som får processorn att starta när applikationen. När applikationen/ programmet avslutas raderas informationen bort från ram-minnet för att ge plats till ny information som behövs för annat att funka.<br><br>
 
                             Det du behöver tänka på när du handlar ram-minnen är först och främst hur många ram minne du behöver / får plats på ditt moderkort. Sen att den förstås är kompatibel med ditt moderkort, samt att det är rätt storlek. Det finns också olika typer av ram-minne men den du ska kolla på är nog DDR3 eller DDR4, då dagens moderkort är anpassad till de sorts ram-minnen.</p>
-                            
                         </div>
                         
                         <div class="mid-content-inner">
-                            
-                            <div class="imgpos"> <img src="Gpu.png" alt="GPU"> </div>
+                            <div class="imgpos"> <img src="/assets/Gpu.png" alt="GPU"> </div>
                             
                             <h3> GPU ( Graphics Processing Unit ) </h3>
                             <p> När det kommer till att handla grafikkortet kommer in på lite igen vad du ska använda datorn till, för det finns två olika sorters som är antingen inbyggd i moderkortet eller en extern som man kan trycka in i sitt moderkor.<br><br> 
 
                             Det inbyggda GPU är då bäst för folk som inte kräver mycket kraft från datorn, så som att surfa på nätet, läsa mail, streamar video och jobbar med microsoft office program. Medan det externa GPU är mer passande för dator spelarna, efter som att det GUP som det har köpt endast har ett arbete och det är att ta hand som grafiken och inget annat. Medan det inbyggda försöker hjälpa moderkortet samtidigt att göra annat, vilket kan leda till dålig grafik som är en datorspelares värst dröm.</p>
-                            
                         </div>
                         
                         <div class="mid-content-inner">
-                            
-                            <div class="imgpos"> <img src="harddrive.png" alt="Storage"> </div>
-                            
+                            <div class="imgpos"> <img src="/assets/harddrive.png" alt="Storage"> </div>
                             <h3> Lagring </h3>
                             <p> Hårddisken är där ditt operativsystem och alla dina filer spara från din dator sparas. Det finns två olika hårddiskar ute på marknaden idag, som är hårddisk och SSD.<br><br> 
-
                             Inuti hårddisken finns det rörliga diskar, där all din information är sparad. Eftersom att hårddisken har rörliga delar är den mer ömtålig, och därmed inte ska vridas och vända på när den är igång för att undvika oväntade problem. Nu i dagsläget är det inte många som använder sig av hårddiskar ( HDD ), eftersom de är extremt sakta jämfört med en Solid state drive ( SSD ).<br><br>
-
                             En Solid state drive ( SSD ) är ganska så ny och därmed kostar mer än vad en vanlig HDD kostar. SSD använder sig av flash lagring, vilket betyder att det inte finns rörliga delar inuti och är betydligt snabbare är en hårddisk (HDD).</p>
-                            
                         </div>
                         
                         <div class="mid-content-inner">
-                            
-                            <div class="imgpos"> <img src="PowerSupply.png" alt="power supply"> </div>
-                            
+                            <div class="imgpos"> <img src="/assets/PowerSupply.png" alt="power supply"> </div>
                             <h3> Nätaggregat </h3>
                             <p> Datorn skulle inte kunna få sig ström utan ett nätaggregat. Nätagget är det som för ström till alla komponenterna i datorn. Som alla andra delar i datorn, finns det olika sorters av nätaggregat och i detta fall är det inte vilken som är bättre utan hur mycket ström den kan leverera. Det finns olika klasser för nätaggregaten som är, brons, silver, guld, platinum och sist men inte minst titanium-certifiering. Desto mer kvalite på nätaggregatet desto mer effektivt är det, vilket innebär att det kräver mindre ström.<br><br>
-
                             Hur kraftfullt nätaggregat du behöver beror på vilka komponenter som sitter i din dator. Normalt så ska 550 w räcka till, men om man vill vara mer specifik med exakt hur mycket man behöver så kan man använda sig av online nätaggregat kalkylator som <a href="http://www.coolermaster.com/power-supply-calculator/" id="power-link" target="_blank">DENNA</a>. Det är alltid bäst att köpa en som har lite mer kraft än vad man behöver, än att köpa en som har lite för lite ström i sig då det kan leda till en massa problem.</p>
-                            
                         </div>
                         
                         <div class="mid-content-inner">
-                            
-                            <div class="imgpos"> <img src="OpticalDrives.png" alt="dvd"> </div>
-                            
+                            <div class="imgpos"> <img src="/assets/OpticalDrives.png" alt="dvd"> </div>
                             <h3> DVD- brännare/ spelare </h3>
                             <p> Dvd-brännare blir mindre av ett krav att ha i datorn, eftersom att idag så streamas nästan allt på nätet. Sen kommer det in på vad du ska använda datorn till, men den enda anledningen till att du skulle behöva den är för att installera ditt operativsystem. Men det kan man köpa med ett USB istället för CD skiva.</p>
-                            
                         </div>
                         
                         <div class="mid-content-inner">
-                            
-                            <div class="imgpos"> <img src="musochtangent.png" alt="tangentbord"> </div>
-                            
+                            <div class="imgpos"> <img src="/assets/musochtangent.png" alt="tangentbord"> </div>
                             <h3> Tangentbord och Mus </h3>
                             <p> Utan tangentbordet och mus kan du inte göra npgot som helt på din ihopbyggda dator. När det gäller tangentbord så är det bara upp till smak och preferens. Alla tangent bor och mus funkar till din nya dator så länge de har en USB kontak eller är trådlös. </p>
-                            
                         </div>
                         
                         <div class="mid-content-inner">
-                            
-                            <div class="imgpos"> <img src="win8.png" alt="Windows"> </div>
-                            
+                            <div class="imgpos"> <img src="/assets/win8.png" alt="Windows"> </div>
                             <h3> Operativsystem </h3>
                             <p> Sist men inte minst är själva operativsystemet som du ska välja. Alla dina nya komponenter kommer inte kunna utnyttjas om du inte installerar ett operativsystem.<br><br>
-
                             När det kommer till att välja operativsystem så handlar det lite mer utseende och hur man upplever hela gränssnittet. Själv tycker jag förstås att man ska köpa det nysläppta som finns sen får man lära sig dess gränssnitt ju mer det används.</p>
-                            
                         </div>
                         
                         <div class="mid-content-inner">
-                            
-                            <div class="imgpos"> <img src="skruvmejsel.png" alt="tools"> </div>
-                            
+                            <div class="imgpos"> <img src="/assets/skruvmejsel.png" alt="tools"> </div>
                             <h3> Tools </h3>
-                            
                             <ol>
                                 <li>Det flesta komponenterna idag använder dig av PH2 Stjärnskruvmejsel. det är bäst att köpa en med extra lång klinga samt med magnet på toppen som är hjälpsam när man sätter dit en skruv.</li>
-                                
                                 <li>Buntban som inte är ett måste, men bra att användas när man vill organisera alla kablar i chassiten efter installation av alla komponenter.</li>
-                                
                                 <li>En sidavbitare för att klippa av resterna av buntbanden. Men om man inte har råd för en sån så ska en sax nog funka.</li>
-                                
                                 <li>Sisst men inte minst ett antistatiskt armband ( för att skydda dina komponenter mot statiska urladdningar ) som ska vara kopplat till något jordad så som ett elutag jorden pinnar på kanten. Om man inte har bandet går det också att hitta andra saker hemma som är jordad, så som den metalliska diskbänken.</li>
                             </ol>
-                            
                         </div>
-                    
                     </div>
-                
                 </div>
-
             </div>
 
             <div id="footer">
-                
                 <div id="footer-shell">
-                    
                     <div id="footer-content">
-                
                         <div Id="SocialMedia">
                         <div class="SocialMedia-pic">
-                            <a href="https://www.facebook.com/Buildmypc-1172469942872092/" target="_blank"><img src="Facebook.png" alt="http://www.flaticon.com/"></a>
+                            <a href="https://www.facebook.com/Buildmypc-1172469942872092/" target="_blank"><img src="/assets/Facebook.png" alt="http://www.flaticon.com/"></a>
                         </div>
 
                         <div class="SocialMedia-pic">
-                            <a href="https://twitter.com/buildmypcmk" target="_blank"><img src="Twitter.png" alt="http://www.flaticon.com/"></a>
+                            <a href="https://twitter.com/buildmypcmk" target="_blank"><img src="/assets/Twitter.png" alt="http://www.flaticon.com/"></a>
                         </div>
 
                         <div class="SocialMedia-pic">
-                            <a href="https://www.instagram.com/buildmypcmk/" target="_blank"><img src="Instagram.png" alt="http://www.flaticon.com/"></a>
+                            <a href="https://www.instagram.com/buildmypcmk/" target="_blank"><img src="/assets/Instagram.png" alt="http://www.flaticon.com/"></a>
                         </div>
 
                         <div class="SocialMedia-pic">
-                            <a href="https://www.youtube.com/channel/UCFpTjYzUAnGIjwDZ6nNdIfw" target="_blank"><img src="youtube.png" alt="http://www.flaticon.com/"></a>
+                            <a href="https://www.youtube.com/channel/UCFpTjYzUAnGIjwDZ6nNdIfw" target="_blank"><img src="/assets/youtube.png" alt="http://www.flaticon.com/"></a>
                         </div>
 
                         </div>
                         <p id="copyright"> &copy; Made by Marvin Kiyingi </p>
-                
                     </div>
-                
                 </div>
-        
             </div>
         </div>
     </body>
-    
 </html>
